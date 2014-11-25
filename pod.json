@@ -14,7 +14,7 @@
         "image": "os-tst",
         "ports": [{
           "hostPort": 80,
-          "containerPort": 4567
+          "containerPort": 80
         }]
       }]
     }

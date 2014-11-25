@@ -9,4 +9,5 @@ RUN bundle install
 
 ADD . /app
 
+EXPOSE 80
 CMD ["ruby", "main.rb"]
