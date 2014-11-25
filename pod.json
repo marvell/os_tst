@@ -1,0 +1,22 @@
+{
+  "id": "os-tst",
+  "kind": "Pod",
+  "apiVersion":"v1beta2",
+  "labels": {
+    "name": "os-tst"
+  },
+  "desiredState": {
+    "manifest": {
+      "version": "v1beta1",
+      "id": "os-tst",
+      "containers": [{
+        "name": "os-tst",
+        "image": "os-tst",
+        "ports": [{
+          "hostPort": 80,
+          "containerPort": 4567
+        }]
+      }]
+    }
+  },
+}
