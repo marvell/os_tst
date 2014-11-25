@@ -9,4 +9,4 @@ RUN bundle install
 
 ADD . /app
 
-ENTRYPOINT ["ruby", "main.rb"]
+CMD ["ruby", "main.rb"]
